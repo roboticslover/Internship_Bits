@@ -215,7 +215,7 @@ def main():
         st.write(f"### {selected_cluster}")
         project_list = clusters[selected_cluster]
         for idx, project in enumerate(project_list, start=1):
-            st.write(f"- **{idx}.** {project}")
+            st.write(f"{project}")
 
         st.success("Tip: Use the dropdown above to navigate between clusters!")
 
